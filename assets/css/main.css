@@ -158,7 +158,7 @@ li {
 }
 .col {
   padding: 0 1%;
-  width: 20%;
+  width: 23%;
   display: inline-block;
 }
 .image {
@@ -195,8 +195,8 @@ h6 {
   position: absolute;
   left: 12%;
   right: 12%;
-  bottom: 8%;
-  top: 8%;
+  bottom: 10%;
+  top: 10%;
   background-color: white;
   opacity: 0.8;
 }
@@ -392,5 +392,77 @@ h6 {
   }
   .text-container-4 {
     font-size: 7px;
+  }
+}
+@media (max-width: 534px) {
+  .head-4 {
+    font-size: 24px;
+  }
+  li {
+    font-size: 6px;
+  }
+  .pre,
+  .next {
+    font-size: 35px;
+  }
+  .pre {
+    margin-left: -4%;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  h6 {
+    font-size: 10px;
+  }
+  .text-detail {
+    font-size: 6px;
+  }
+  .text-container-3 {
+    font-size: 7px;
+  }
+  .btn {
+    font-size: 11px;
+    width: 47%;
+    height: 32px;
+    right: 25%;
+  }
+  .text-container-4 {
+    font-size: 6px;
+  }
+}
+@media (max-width: 469px) {
+  .head-4 {
+    font-size: 22px;
+  }
+  li {
+    font-size: 5px;
+  }
+  .pre,
+  .next {
+    font-size: 35px;
+  }
+  .pre {
+    margin-left: -4%;
+  }
+  h5 {
+    font-size: 13px;
+  }
+  h6 {
+    font-size: 9px;
+  }
+  .text-detail {
+    font-size: 5px;
+  }
+  .text-container-3 {
+    font-size: 6px;
+  }
+  .btn {
+    font-size: 10px;
+    width: 45%;
+    height: 30px;
+    right: 26%;
+  }
+  .text-container-4 {
+    font-size: 5px;
   }
 }
